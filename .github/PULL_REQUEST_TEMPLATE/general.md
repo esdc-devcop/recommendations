@@ -1,9 +1,10 @@
 ---
 name: General
-about: This a gerneral pull request template to be used for any reason
+about: This is a general pull request template to be used as a default template
 title: ''
 labels: ''
 assignees: ''
+
 ---
 
 ### What does this MR do?
@@ -20,12 +21,7 @@ important if they didn't participate in the discussion.
 Make sure to remove this comment when you are done.
 -->
 
-### General checklist
-
-- [ ] [Documentation](README.md) created/updated
-- [ ] Changelog entry added, if necessary
-- [ ] Tests added for this feature/bug
-- [ ] Conforms to the [style guides](https://www.canada.ca/en/government/about/design-system.html)
+### Checklist
 
 ### Related issues
 

@@ -6,9 +6,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/canada-ca/template-gabarit"
+    "url": "https://github.com/esdc-devcop/recommendations"
   },
-  "license": "MIT",
+  "license": "OGLC",
   "devDependencies": {
     "chalk": "^2.4.2",
     "cspell": "^4.0.28",
