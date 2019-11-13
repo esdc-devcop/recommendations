@@ -2,6 +2,7 @@
 
 - [Recommended tools overview](/tools/overview.md)
 - [TFS 2015 Use and Configuration Recommendation](/tools/tfs2015.md)
+- [Artifactory as an Asset Management and Vulnerability Management Process](/tools/Update Artifactory_Asset_Management_VulnerabilityProcess.md)
 
 ## More
 
