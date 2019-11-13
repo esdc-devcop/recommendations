@@ -1,6 +1,7 @@
 # Recommendations
 
 - [Recommended tools overview](/tools/overview.md)
+- [TFS 2015 Use and Configuration Recommendation](/tools/tfs2015.md)
 
 ## More
 
