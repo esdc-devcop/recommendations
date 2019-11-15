@@ -27,18 +27,18 @@ We have extracted a few requirements from our typical ESDC release process.
 #### Popular Flows Comparison
 
 | Key Features | [GitFlow](https://datasift.github.io/gitflow/IntroducingGitFlow.html) | [OneFlow](https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow) | [Microsoft Release Flow](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow) | [GitHub Flow](https://githubflow.github.io/) | [GitLab Flow](https://docs.gitlab.com/ee/workflow/gitlab_flow.html) |
-| --- | --- | --- | --- | --- | --- |
-| Production and Development branches segregated * | :heavy_check_mark: | :o: (Optional) | :heavy_check_mark: | :x: | :heavy_check_mark: |
-| Manages Staging/Release branches * | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: |
-| ER branching similar to "regular" * | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: |
-| Easy to follow history ** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: |
-| Easy to learn when new to Git ** | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: | :x: |
-| Maintains all main branches (reduced chances of code loss) | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: |
-| Designed for Continuous Deployment | :x: | :x: | :x: | :heavy_check_mark: | :x: |
-| Designed for Continuous Delivery | :x: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
+| :--- | --- | --- | --- | --- | --- |
+| Production and Development branches segregated * | :heavy_check_mark: | :grey_question: (Optional) | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: |
+| Manages Staging/Release branches * | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: |
+| ER branching similar to "regular" * | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
+| Easy to follow history ** | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
+| Easy to learn when new to Git ** | :heavy_check_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
+| Maintains all main branches (reduced chances of code loss) | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_check_mark: |
+| Designed for Continuous Deployment | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: |
+| Designed for Continuous Delivery | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: |
 |  Can handle Continuous Delivery | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 |  Can handle Continuous Integration | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Deploys to Production from "Main/Master/Default" branch | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: |
+| Deploys to Production from "Main/Master/Default" branch | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_minus_sign: | :heavy_check_mark: |
 
 > Legend: `*` from **ESDC Projects Requirements**; `**` Subjective analysis.
 
