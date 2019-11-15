@@ -1,8 +1,15 @@
 # Recommendations
 
+Tools
+
 - [Recommended tools overview](/tools/overview.md)
 - [TFS 2015 Use and Configuration Recommendation](/tools/tfs2015.md)
 - [Artifactory as an Asset Management and Vulnerability process](/tools/Artifactory_Asset_Management_VulnerabilityProcess.md)
+
+Source Management
+
+- [Git Branching, Picking a Git Flow](/source_management/git-branching.md)
+- [Managing Merge Requests, Using Code Review](/source_management/merging-review.md)
 
 ## More
 
