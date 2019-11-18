@@ -17,7 +17,7 @@ The link to this proof of concept is below: [https://github.com/esdc-devx/auto-a
 
 The DevX team was committed to selecting best in class open source tools for this proof of concept and we are fairly confident that we made the right choice. We ultimately ended up selecting [Puppeteer](https://developers.google.com/web/tools/puppeteer/) and [aXe Core](https://www.deque.com/axe/) for this demo.
 
-## Puppeteer
+#### Puppeteer
 
 Puppeteer is a NodeJS (JavaScript) Library for automating Google’s Chrome & Chromium Web Browser. The reason we choose this library over another tool such as selenium was purely due to ease of use. We found that Puppeteer was easier for our devs to use then other alternatives.
 
