@@ -1,4 +1,3 @@
-# A11y Testing Recommendation
 
 The ability to automate even a fraction of our a11y testing will have huge benefits for IITB.
 
@@ -61,19 +60,12 @@ Automated testing will also provide feedback on a11y issues earlier to developer
 CDS-SNC has some tools they are working on that are similar to puppeteer and axe-core, where they scan the front page of all Government of Canada Websites, something in the thousands.
 Here are some of the related projects from their GitHub:
 
-## cds-snc/domain-scan
+## Additional Tools
 
-A lightweight pipeline, locally or in Lambda, for scanning things like HTTPS, third party service use, and web accessibility.
 [https://github.com/cds-snc/domain-scan]
-
-## cds-snc/lighthouse-scanner
 
 [https://github.com/cds-snc/lighthouse-scanner]
 
-## cds-snc/loghthouse-scan-monitor
-
 [https://github.com/cds-snc/lighthouse-scan-monitor]
-
-## cds/snc/lighthouse-scanner-ui
 
 [https://github.com/cds-snc/lighthouse-scanner-ui]
