@@ -1,3 +1,4 @@
+# A11y Testing Recommendation
 
 The ability to automate even a fraction of our a11y testing will have huge benefits for IITB.
 
@@ -11,7 +12,7 @@ The developer experience team reached out to some folks in the web a11y communit
 
 The DevX Team wrote a proof of concept (not completed) using Puppeteer and aXe Core.
 
-The link to this proof of concept is below: [https://github.com/esdc-devx/auto-a11y-demo]
+[https://github.com/esdc-devx/auto-a11y-demo](https://github.com/esdc-devx/auto-a11y-demo)
 
 ### Tools Selected
 
@@ -62,10 +63,10 @@ Here are some of the related projects from their GitHub:
 
 ## Additional Tools
 
-[https://github.com/cds-snc/domain-scan]
+[https://github.com/cds-snc/domain-scan](https://github.com/cds-snc/domain-scan)
 
-[https://github.com/cds-snc/lighthouse-scanner]
+[https://github.com/cds-snc/lighthouse-scanner](https://github.com/cds-snc/lighthouse-scanner)
 
-[https://github.com/cds-snc/lighthouse-scan-monitor]
+[https://github.com/cds-snc/lighthouse-scan-monitor](https://github.com/cds-snc/lighthouse-scan-monitor)
 
-[https://github.com/cds-snc/lighthouse-scanner-ui]
+[https://github.com/cds-snc/lighthouse-scanner-ui](https://github.com/cds-snc/lighthouse-scanner-ui)
