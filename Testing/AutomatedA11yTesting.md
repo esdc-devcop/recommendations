@@ -25,7 +25,7 @@ Puppeteer is a NodeJS (JavaScript) Library for automating Google’s Chrome & Ch
 
 aXe Core was selected due to it’s commitment to producing no-false positives and it is quickly becoming the go to library for other automation tools. For instance it’s used by Google for their in-browser and cli a11y automation tool Lighthouse. It also was very easy to integrate with Puppeteer.
 
-## Site Selected
+### Site Selected
 
 We decided to develop our proof of concept against the ROEWeb Demo site.
 
