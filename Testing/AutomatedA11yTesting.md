@@ -8,31 +8,31 @@ There are quite a few free or open source a11y tools out there that we can use t
 
 The developer experience team reached out to some folks in the web a11y community in Ottawa and the GoC through Twitter [Calvin Rodo's thread link](https://twitter.com/CalvinR/status/1093265325041352722) and were provided with some tools to look into.
 
-### Proof of Concept
+## Proof of Concept
 
 The DevX Team wrote a proof of concept (not completed) using Puppeteer and aXe Core.
 
 The link to this proof of concept is below: <https://github.com/esdc-devx/auto-a11y-demo>
 
-### Tools Selected
+## Tools Selected
 
 The DevX team was committed to selecting best in class open source tools for this proof of concept and we are fairly confident that we made the right choice. We ultimately ended up selecting [Puppeteer](https://developers.google.com/web/tools/puppeteer/) and [aXe Core](https://www.deque.com/axe/) for this demo.
 
-### Puppeteer
+## Puppeteer
 
 Puppeteer is a NodeJS (JavaScript) Library for automating Google’s Chrome & Chromium Web Browser. The reason we choose this library over another tool such as selenium was purely due to ease of use. We found that Puppeteer was easier for our devs to use then other alternatives.
 
-### aXe Core
+## aXe Core
 
 aXe Core was selected due to it’s commitment to producing no-false positives and it is quickly becoming the go to library for other automation tools. For instance it’s used by Google for their in-browser and cli a11y automation tool Lighthouse. It also was very easy to integrate with Puppeteer.
 
-### Site Selected
+## Site Selected
 
 We decided to develop our proof of concept against the ROEWeb Demo site.
 
 The ROEWeb Demo Site is a site provided by ROEWeb that allows employers to train their staff and test out their tools against ROEWeb. The code base is identical to the production site, and more importantly it was designed to be testable and I (Calvin Rodo) spent several years working on it and so am fairly knowledgeable of the site.
 
-### Issues Encountered
+## Issues Encountered
 
 For most pages we didn’t encounter any issues with performing our a11y tests. We were also able to easily filter out an a11y issue that was identified in the menu for the Web Experience Toolkit.
 
@@ -40,19 +40,19 @@ We did however run into issues when attempting to automate the ROEWeb Assistant 
 
 This really highlights the need for developers to be involved in writing the test automation for their sites, when developers aren’t involved they have no real incentive to write testable applications. When they are are responsible for the automated tests they feel the pain in attempting to automate their applications and will thus write more testable code and will invest more effort into maintaining and fixing the tests.
 
-### Recommendation from the Developer Experience Team
+## Recommendation from the Developer Experience Team
 
 We recommend that we attempt to automate the a11y testing of an application that is currently in development at ESDC to show the value of this type of automation.
 
 The ideal application would be one that is currently doing automated builds, and has developers that are comfortable writing code in JavaScript.
 
-### Requirements for Next Steps
+## Requirements for Next Steps
 
 * NodeJS installed on Build Machines
 * Chromium installed on Build Machines
   * It’s critical to the work that the department is doing that we have access to either Chromium or Chrome, most modern in browser development tools are being built for Chrome first. Without access to this tool we are crippling ourselves and making it harder to do modern web development.
 
-### Expected Outcome
+## Expected Outcome
 
 According to aXe their tool will only cover 20 to 50% of all accessibility issues. Automation of a11y testing through aXe coupled with an html5 validation library we should be able to free up the teams at ESDC assessing our sites for compliance with a11y requirements to perform more valuable non-automated work.
 
