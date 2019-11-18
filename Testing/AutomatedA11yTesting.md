@@ -31,7 +31,7 @@ We decided to develop our proof of concept against the ROEWeb Demo site.
 
 The ROEWeb Demo Site is a site provided by ROEWeb that allows employers to train their staff and test out their tools against ROEWeb. The code base is identical to the production site, and more importantly it was designed to be testable and I (Calvin Rodo) spent several years working on it and so am fairly knowledgeable of the site.
 
-## Issues Encountered
+### Issues Encountered
 
 For most pages we didn’t encounter any issues with performing our a11y tests. We were also able to easily filter out an a11y issue that was identified in the menu for the Web Experience Toolkit.
 
