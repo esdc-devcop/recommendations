@@ -21,7 +21,7 @@ The DevX team was committed to selecting best in class open source tools for thi
 
 Puppeteer is a NodeJS (JavaScript) Library for automating Google’s Chrome & Chromium Web Browser. The reason we choose this library over another tool such as selenium was purely due to ease of use. We found that Puppeteer was easier for our devs to use then other alternatives.
 
-## aXe Core
+#### aXe Core
 
 aXe Core was selected due to it’s commitment to producing no-false positives and it is quickly becoming the go to library for other automation tools. For instance it’s used by Google for their in-browser and cli a11y automation tool Lighthouse. It also was very easy to integrate with Puppeteer.
 
