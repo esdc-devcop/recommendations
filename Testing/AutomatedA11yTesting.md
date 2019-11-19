@@ -58,10 +58,10 @@ According to aXe their tool will only cover 20 to 50% of all accessibility issue
 
 Automated testing will also provide feedback on a11y issues earlier to developers so which provides instant learning opportunities and should over time increase the institutional knowledge of writing a11y web sites.
 
+## Additional Tools
+
 CDS-SNC has some tools they are working on that are similar to puppeteer and axe-core, where they scan the front page of all Government of Canada Websites, something in the thousands.
 Here are some of the related projects from their GitHub:
-
-## Additional Tools
 
 [https://github.com/cds-snc/domain-scan](https://github.com/cds-snc/domain-scan)
 
