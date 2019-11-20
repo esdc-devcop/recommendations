@@ -11,6 +11,10 @@ Source Management
 - [Git Branching, Picking a Git Flow](/source_management/git-branching.md)
 - [Managing Merge Requests, Using Code Review](/source_management/merging-review.md)
 
+Coding Practices
+
+- [Application Logging](/coding_practices/application-logging.md)
+
 ## More
 
 - [Home](https://esdc-devcop.github.io/)
