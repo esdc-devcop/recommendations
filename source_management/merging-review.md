@@ -17,3 +17,11 @@ Follow a few simple ideas:
 - Anyone on the project can raise concerns (blocking) on a PR/MR, even if they are not assigned to it.
 - Can be blocked for any reason, including empty line spaces or too many changes in one PR/MR.
 - The goal of a PR/MR should ultimately be knowledge transfer.
+
+## FAQ
+
+### How do smaller changes help me and the project?
+
+### Why do code reviews matter?
+
+### How do I keep reviews from taking up all my time?
