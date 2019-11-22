@@ -15,6 +15,10 @@ Coding Practices
 
 - [Application Logging](/coding_practices/application-logging.md)
 
+Testing Tools
+
+- [AutomatedA11yTesting](Testing/AutomatedA11yTesting.md)
+
 ## More
 
 - [Home](https://esdc-devcop.github.io/)
