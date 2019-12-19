@@ -17,12 +17,10 @@
 
 ## Responsibility of the _author_
 
-Follow these simple steps:
-
-1. Commit often. - _Whenever_ you change a piece of code that is testable and compiles.
-1. Push your _working_ branch at the end of each "development session" (before walking away from your computer for lunch).
-1. Request a PR/MR (with review) before having more than 100 lines changed.
-1. Perform a self-review of your changes.
+- Keep your changes small with a clear scope.
+- Describe the changes in the Pull Request. Link it to a task.
+- New functions and conditions come with new unit tests. Changed functions and conditions don't affect existing unit tests.
+- Complex sections of code contains comments.
 
 ### Having your code reviewed
 
@@ -41,12 +39,9 @@ Please keep in mind that code review is a process that can take multiple iterati
 
 ## Responsibility of the _reviewer_
 
-Follow a few simple ideas:
-
 - When approving a merge, you are just as responsible for the changes as the person who made them. So you should understand them just as well.
 - Only review changed lines.
 - Anyone on the project can raise concerns (blocking) on a PR/MR, even if they are not assigned to it.
-- Can be blocked for any reason, including empty line spaces or too many changes in one PR/MR.
 - The goal of a PR/MR should ultimately be knowledge transfer.
 
 ### Reviewing the code
